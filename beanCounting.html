@@ -1,5 +1,10 @@
 <script type="text/javascript">
-function countBs (word) {
-	var wordNum = word.length;	
+function countBs (word, letter) {
+	var wordCount = word.length -1;	
+	for ( i = 0; i < wordCount; i++) {
+		if(word.charAt(i)) == letter{
+			console.print(word.charAt(i));
+		}
+	}
 }
 </script>
